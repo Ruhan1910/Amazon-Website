@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #215429;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.nav-first {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+/** box 1 **/
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    background-image: url(image/amazon_logo.png);
+    background-size: cover;
+}
+
+/** box 2 **/
+.nav-address {
+    height: 50px;
+    width: 112px;
+}
+
+.add-first {
+    color: #cccccc;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.add-second {
+    display: flex;
+}
+
+.add-second p {
+    margin-left: 3px;
+}
+
+/** box 3 **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 40px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+
+.search-select {
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #e6e6e6;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+    background-color: rgb(171, 48, 140);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(171, 48, 140);
+}
+
+/** box 4 **/
+.language-first {
+    height: 40px;
+    width: 53px;
+    text-align: center;
+    background-color: #215429;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+/** cart box **/
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 14px;
+    font-weight: 700;
+}
+
